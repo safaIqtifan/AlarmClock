@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackish">#ff1c1e20</color>
+    <color name="grey">#ffaaaaaa</color>
+    <color name="whitish">#ffdddddd</color>
+    <color name="white">#ffeeeeee</color>
+    <color name="dark_grey">#ff333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+
+    <color name="mat_purple_black">#170017</color>
+    <color name="mat_purple_dark">#332940</color>
+    <color name="mat_purple_lighter">#5D4B70</color>
+    <color name="mat_purple">#BB86FC</color>
+
+    <color name="mat_blue_purple_primary">#6200EE</color>
+    <color name="mat_blue_primary_variant">#3700B3</color>
+    <color name="mat_teal_secondary">#03DAC6</color>
+    <color name="mat_teal_secondary_variant">#018786</color>
+    <color name="mat_almost_black">#121212</color>
+
+    <color name="mat_teal_ws">#4EAC9C</color>
+    <color name="mat_almost_black_ws">#131D23</color>
+    <color name="mat_grey_ws">#242D35</color>
+    <color name="mat_purple_ws">#AE7AC2</color>
+
+    <color name="reactive_purple">#ee0e90</color>
+    <color name="reactive_background">#2b323b</color>
+    <color name="reactive_surface">#3f3d55</color>
+    <color name="reactive_white">#ffffe8</color>
+</resources>

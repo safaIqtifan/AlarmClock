@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/list_row_digital_clock_container"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:longClickable="false"
+        android:orientation="vertical">
+
+        <com.better.alarm.view.DigitalClock
+            android:id="@+id/list_row_digital_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:focusable="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/digital_clock_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textColor="?android:attr/textColorPrimary"
+                tools:text="12:45"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/digital_clock_am_pm"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </com.better.alarm.view.DigitalClock>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_row_daysOfWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingTop="2dip"
+                tools:text="Weekdays"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/colorAccent" />
+
+            <TextView
+                android:id="@+id/list_row_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                tools:text="label"
+                android:textColor="?android:attr/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <com.better.alarm.view.DontPressWithParentLayout
+            android:id="@+id/list_row_on_off_checkbox_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+            <Switch
+                android:id="@+id/list_row_on_off_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </com.better.alarm.view.DontPressWithParentLayout>
+
+        <LinearLayout
+            android:id="@+id/details_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/details_button_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/ic_baseline_more_horiz_24"
+                    android:textSize="40dp"
+                    android:textStyle="normal"
+                    android:tint="?android:attr/textColorPrimary" />
+
+                <ImageView
+                    android:id="@+id/details_button_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/ic_baseline_check_24"
+                    android:alpha="0"
+                    android:textSize="40dp"
+                    android:textStyle="normal"
+                    android:tint="?android:attr/textColorPrimary" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

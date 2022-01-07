@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Setting labels on Set alarm screen: Prealarm -->
+    <string name="alarm_prealarm">Pre-sveglia soft</string>
+    <!-- Pre-alarm duration title -->
+    <string name="prealarm_duration_title">Durata della pre-sveglia</string>
+    <!--
+         Entries listed in the ListPreference when invoking the pre-alarm duration
+         preference.
+    -->
+    <string-array name="prealarm_duration_entries">
+        <item>Disattivata</item>
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>60 minuti</item>
+    </string-array>
+    <!-- Pre-alarm duration summary string set based on the preference value. -->
+    <string name="prealarm_summary">La pre-sveglia inizierà
+<xliff:g id="minutes">%d</xliff:g> minuti prima della sveglia principale</string>
+    <string name="info_fragment_prealarm_summary"><xliff:g id="minutes">%d</xliff:g> minuti pre-sveglia</string>
+    <string name="prealarm_off_summary">La pre-sveglia è disattivata</string>
+    <string name="menu_share">Condividi</string>
+    <string name="menu_bugreport">Segnala un bug</string>
+    <string name="dialog_say_thanks_review_button">Valuta l’applicazione</string>
+    <string name="dialog_bugreport_hint">Descrivi le tue lamentele qui</string>
+    <string name="longclick_dismiss_title">Clic prolungato per disattivare la sveglia</string>
+    <string name="longclick_dismiss_summary">Tenere premuto il tasto "Spegni" per disattivare la sveglia</string>
+    <string name="fade_in_time_sec_title">Durata della dissolvenza</string>
+    <string-array name="fade_in_time_sec_entries">
+        <item>Off</item>
+        <item>10 secondi</item>
+        <item>20 secondi</item>
+        <item>30 secondi</item>
+        <item>60 secondi</item>
+        <item>120 secondi</item>
+    </string-array>
+    <string name="fade_in_summary">La durata della dissolvenza è di <xliff:g id="seconds">%d</xliff:g> secondi</string>
+    <string name="fade_in_off_summary">La dissolvenza è disattivata</string>
+    <string-array name="alarm_set_short">
+        <item>Meno di un minuto da ora</item>
+        <item><xliff:g example="2 giorni" id="DAYS">%1$s</xliff:g></item>
+        <item><xliff:g example="2 ore" id="HOURS">%2$s</xliff:g></item>
+        <item><xliff:g example="2 giorni" id="DAYS">%1$s</xliff:g> e <xliff:g example="2 ore" id="HOURS">%2$s</xliff:g></item>
+        <item><xliff:g example="2 minuti" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 giorni" id="DAYS">%1$s</xliff:g> e <xliff:g example="2 minuti" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 ore" id="HOURS">%2$s</xliff:g> e <xliff:g example="2 minuti" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 ore" id="HOURS">%2$s</xliff:g>, e <xliff:g example="2 minuti" id="MINUTES">%3$s</xliff:g></item>
+    </string-array>
+    <string name="theme_title">Tema dell\'interfaccia</string>
+    <string name="simple_alarm_clock">Sveglia Semplice</string>
+    <string-array name="snooze_duration_with_off_entries">
+        <item>Disattivo</item>
+        <item>"5 minuti"</item>
+        <item>"10 minuti"</item>
+        <item>"15 minuti"</item>
+        <item>"20 minuti"</item>
+        <item>"25 minuti"</item>
+        <item>"30 minuti"</item>
+    </string-array>
+    <string name="alarm_alert_reschedule_text">Ripianificare</string>
+    <string name="alarm_alert_hold_the_button_text">Tenere premuto il pulsante!</string>
+    <string name="permissions_external_storage_text">Per riprodurre %s, è richiesta un’autorizzazione speciale. Fai clic su OK per confermare. Se non lo desideri, seleziona una suoneria diversa. Questa scelta può essere modificata in qualsiasi momento nelle impostazioni di sistema.</string>
+    <string name="details_no_ringtone_picker">Nessun provider di suonerie trovato...</string>
+    <string name="preference_category_durations">Durata</string>
+    <string name="preference_category_sound">Volume e suono</string>
+    <string name="preference_category_ui">Interfaccia</string>
+    <string name="preference_list_row_layout_title">Dimensione</string>
+    <string name="menu_about_title">A proposito dell’applicazione</string>
+    <string name="dialog_about_content">Simple Alarm Clock è un programma open source che combina un’interfaccia semplice e le funzionalità necessarie ad una sveglia comoda.
+
+       \n\nSuggerimenti:
+       \n· Scegli la dimensione del layout nelle impostazioni
+       \n· Scegli un tema nelle impostazioni
+
+       \n\nNuovo in questa versione:
+       \n· Correzioni per Android 9
+       \n· Nuovo design
+       \n· Selezione della dimensione delle righe nelle impostazioni
+
+       \n· <a href="https://github.com/yuriykulikov/AlarmClock">Per saperne di più del progetto (su GitHub)</a>
+
+       \n\nSostieni lo sviluppatore
+       \n\· <a href="https://play.google.com/store/apps/details?id=com.premium.alarm">Versione Premium (donazione)</a>
+   </string>
+    <string name="dialog_bugreport_faq"><b>Problemi comuni e come risolverli</b>
+       \n\n<font color="#FF0000">Se all\’improvviso qualcosa si rompe, nonostante prima funzionasse</font>, probabilmente Android ha avuto dei problemi con la cache dell\'applicazione. A volte capita, può succedere a tutte le applicazioni. Di solito svuotare la cache (App e notifiche -> Mostra tutte le app -> Simple Alarm Clock -> Spazio di archiviazione -> Cancella cache) o, nel caso peggiore, disinstallare e reinstallare l\’applicazione, risolve il problema.
+
+       \n\n<font color="#FF0000">Se le sveglie non si sentono</font>, controlla le impostazioni del tuo dispositivo. È necessario utilizzare almeno "Solo sveglie" su Android 8 e non usare la modalità "Non disturbare" su Android 9. Per maggiori informazioni visitare la pagina apposita <a href="https://support.google.com/android/answer/9069335?hl=ru">del supporto Google</a>
+
+       \n\n<font color="#FF0000">Se noti che una sveglia non ha suonato</font>, assicurati di non averla disattivata accidentalmente. Riceviamo spesso segnalazioni del genere e spesso è l’utente stesso ad averla disattivata nel sonno. Se noti un problema simile, prova a mettere il telefono un po’ più lontano dal letto prima di andare a letto.
+
+       \n\n<font color="#FF0000">Se niente di tutto ciò ti ha aiutato</font>, per favore scrivici un messaggio nel form successivo. Faremo del nostro meglio per aiutarti.
+   </string>
+    <string name="dialog_say_thanks_title">Invia un ringraziamento</string>
+    <string name="dialog_say_thanks_review_message">Grazie per aver dedicato del tempo a ringraziarci! "Simple Alarm Clock" è un progetto non profit open source. Non inseriremo mai pubblicità né raccoglieremo dati utente a scopo di lucro. Tuttavia, siamo estremamente felici se ti piace il nostro lavoro. Il modo migliore di valutare il nostro lavoro è scrivere una recensione positiva. Puoi anche porre una domanda o una richiesta di funzionalità.</string>
+    <string name="dialog_say_thanks_premium_text">Se ti piace davvero la nostra applicazione, puoi prendere in considerazione l’acquisto di una versione premium. Sembra fantastico, vero? :)</string>
+    <string name="dialog_say_thanks_premium_text_as_button"><a href="https://play.google.com/store/apps/details?id=com.premium.alarm">Versione premium
+</a></string>
+    <string name="notification_channel_high_prio">Popup con pulsanti di spegnimento e rinvio</string>
+    <string name="notification_channel_default_prio">Notifica di sveglia posticipata</string>
+    <string name="notification_channel_low_prio">Notifica di sveglia scaduta</string>
+    <string name="alert_notifications_title">Oh no! C’è un problema!</string>
+    <string name="alert_notifications_turned_off">Tutte le notifiche sono disattivate, inclusa il popup con i pulsanti "Spegni" e "Posticipa"!
+
+       \n\nFai clic su OK per accedere alle impostazioni e abilitare le notifiche!</string>
+    <string name="alert_notifications_high_prio_text">La priorità del popup con i pulsanti "Spegni" e "Posticipa" è troppo bassa per sbloccare lo schermo!
+
+       \n\nPotresti aver disattivato o modificato accidentalmente le impostazioni di notifica.
+
+       \n\nFare clic su OK per passare alle impostazioni di sistema e seleziona il livello di importanza più alto per questa notifica (Suoneria e visualizzazione sullo schermo).
+
+       \n\nParadossalmente il suono deve essere disattivato nelle impostazioni avanzate.</string>
+    <string name="alert_notifications_default_prio_text">
+       Le notifiche secondarie sono disabilitate.
+
+       \n\nPotresti aver disattivato o modificato accidentalmente le impostazioni di notifica.
+
+       \n\nFare clic su OK per accedere alle impostazioni, quindi selezionare il secondo livello di importanza per questa notifica (Con suoneria).
+
+       \n\nParadossalmente il suono deve essere disattivato nelle impostazioni avanzate.</string>
+</resources>
